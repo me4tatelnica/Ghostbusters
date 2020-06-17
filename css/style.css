@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/* Делаем шапку */
+.header {
+    display: flex;  /* Ставит элементы в ряд по горизонтали */
+    align-items: center;  /* Выравнивает элементы относительно друг друга по центру */
+    justify-content: space-between;  /* Выравнивание элементов по ширине */
+    height: 104px;
+    padding-left: 34px;  /*Отступ слева*/
+    border-bottom: 1px solid #d4d4d4;  /* Добавляет границу снизу */
+}
+.line {
+    height: 100%;
+    width: 1px;
+    background-color: #d4d4d4;
+    margin-left: 34px;
+}
+
+/* Делаем поиск в шапке */
+.search-input {
+    background-image: url(../img/search-icon.svg); /* вставляет фоновую картинку */
+    background-repeat: no-repeat;  /* убирает повторы картинки */
+    background-position: center left;  /* задает размещение картинки слева по центру */
+    padding-left: 38px;  /* отступ слева */
+    border: none;  /* делает внешние границы невидимыми */
+    font-style: normal;  /* стиль шрифта */
+    font-weight: normal;  /* толщина шрифта */
+    font-size: 18px;  /* размер шрифта */
+    line-height: 21px;  /* межстрочный интервал */
+    color: #A5A5A5;
+    margin-left: 34px;
+
+}
+
+/* Делаем меню шапки */
+.navigation {
+    margin-right: 44px;
+    margin-left: auto;
+}
+.navigation-link {
+    text-decoration: none;  /* Убирает нижнее подчеркивание */
+    font-size: 18px;  /* размер шрифта */
+    line-height: 21px;  /* межстрочный интервал */
+    color: #363636;
+    margin-right: 18px;  /* отступ справа (внешний) */
+}
+
+/* Делаем кнопки в шапке */
+.button-group {
+    height: 100%;
+}
+.button {
+    height: 100%;
+    cursor: pointer;  /* курсор при наведении палец */
+}
+.sign-up {
+    color: #5671F6;
+    font-size: 18px;  /* размер шрифта */
+    line-height: 21px;  /* межстрочный интервал */
+    border: none;
+    background-color: #fff;
+    padding-left: 34px;
+    padding-right: 34px;
+    border-left: 1px solid #d4d4d4;
+}
+.login {
+    font-size: 18px;  /* размер шрифта */
+    line-height: 21px;  /* межстрочный интервал */
+    color: #fff;
+    background-color: #5671F6;
+    border: none;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
