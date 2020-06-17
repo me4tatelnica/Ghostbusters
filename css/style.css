@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -86,6 +89,7 @@ body {
 .film {
     padding-top: 80px;
     padding-bottom: 80px;
+    border-bottom: 1px solid #4d4d4d;
 }
 .film-wrapper {
     display: flex;
@@ -157,6 +161,39 @@ body {
     font-weight: bold;
 }
 .left-side {
-    margin-right: 40px;
-
+    margin-right: 40px; 
 }
+.rating {
+    display: flex;
+    align-items: center;
+}
+.rating-counter {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #5671f6;
+    border-radius: 10px;
+    margin-right: 28px;
+}
+.rating-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.rating-text {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 16px;
+    line-height: 19px;
+}
+.rating-text-bold {
+    font-weight: bold;
+}
+
+
+
+
