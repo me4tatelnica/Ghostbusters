@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    color: #363636;
 }
 
 /* Делаем шапку */
@@ -77,3 +78,85 @@ body {
     padding-right: 50px;
 }
 
+/* Стили контейнера с описанием */
+.container {
+    max-width: 1130px;  /* Максимальная ширина контейнера */
+    margin: auto;
+}
+.film {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.film-wrapper {
+    display: flex;
+
+}
+.film-trailer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+.poster {
+    border-top-right-radius: 5px;  /* Скругление сверху справа */
+    border-top-left-radius: 5px;  /* Скругление сверху слева */
+    width: 358px;
+}
+.trailer-button {
+    display: flex; 
+    align-items: center;   /* Выравнивание относительно друг друга по вертикали */
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+    border-radius: 0px 0px 5px 5px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.trailer-button-icon, .trailer-button-text {
+    margin-right: 14px;
+
+}
+.film-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    
+}
+.film-subtitle {
+    display: block;
+    margin-bottom: 32px;
+    color: #a5a5a5;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+.film-description {
+    font-size: 14px;
+    line-height: 150%;
+    max-width: 514px;
+    color: #000;
+    margin-bottom: 50px;
+}
+.about-film {
+    display: flex;
+    margin-bottom: 50px;
+}
+.about-text {
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 16px;
+}
+.about-text-bold {
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+    font-weight: bold;
+}
+.left-side {
+    margin-right: 40px;
+
+}
