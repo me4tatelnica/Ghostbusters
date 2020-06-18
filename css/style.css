@@ -213,4 +213,32 @@ body {
     color: #363636;
     font-weight: 900;
 }
-
+.tabs-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    align-items: center;
+    flex-basis: 25%;
+}
+.card-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 35px;
+}
+.name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #5671f6;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+.en-name {
+    color: #a5a5a5;
+}
