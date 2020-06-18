@@ -193,7 +193,24 @@ body {
 .rating-text-bold {
     font-weight: bold;
 }
-
-
-
+/* Блок с актерами */
+.cast {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.tabs {
+    display: flex;
+    align-items: center;
+}
+.section-title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #A5A5A5;
+    margin-right: 30px;
+}
+.section-title.active {
+    color: #363636;
+    font-weight: 900;
+}
 
